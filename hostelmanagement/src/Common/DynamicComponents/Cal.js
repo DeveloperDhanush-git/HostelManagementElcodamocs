@@ -47,18 +47,7 @@ const BookingPage = () => {
         </div>
         
         {}
-        <div className="w-full md:w-1/2  flex justify-center mt-5">
-          <DatePicker
-            selected={endDate}
-            onChange={(date) => setEndDate(date)}
-            selectsEnd
-            startDate={startDate}
-            endDate={endDate}
-            minDate={startDate}
-            inline
-            className="w-full no-hover"
-          />
-        </div>
+        
       </div>
 
       {}
