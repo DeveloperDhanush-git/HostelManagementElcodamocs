@@ -1,22 +1,21 @@
 import React from 'react'
-import Description from '../DynamicComponent/Description'
-import HeroSection from '../DynamicComponent/HeroSection'
-import Images from '../DynamicComponent/Images'
-import Amenities from '../DynamicComponent/Amenities'
-import Footer from '../DynamicComponent/Footer'
-import MainNavbar from '../DynamicComponent/MainNavbar'
+import Description from '../DynamicComponent/Home/Description'
+import HeroSection from '../DynamicComponent/Home/HeroSection'
+import Images from '../DynamicComponent/Home/Images'
+import Amenities from '../DynamicComponent/Home/Amenities'
 
-const Home = () => {
+
+const Mainpage = () => {
   return (
     <div>
-         <MainNavbar />
-    <HeroSection />
-      <Images />
-      <Amenities />
-      <Description />
-      <Footer />
+ 
+        <HeroSection />
+        <Images />
+        <Amenities />
+        <Description />
+        
     </div>
   )
 }
 
-export default Home
+export default Mainpage
