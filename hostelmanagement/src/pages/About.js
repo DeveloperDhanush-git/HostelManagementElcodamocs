@@ -10,7 +10,7 @@ import about4  from "../assets/account.png"
 export default function About() {
   useEffect(() => {
     AOS.init({
-      duration: 100, // Reduced duration for faster animations (500ms)
+      duration: 400, // Reduced duration for faster animations (500ms)
       once: true, // Animations only happen once
     });
   }, []);
